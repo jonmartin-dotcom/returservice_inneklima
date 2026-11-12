@@ -1,0 +1,41 @@
+:root {
+  --ie-accent: #1d493f;
+  --ie-accent-dark: #143229;
+  --ie-dark: #183f36;
+  --ie-bg: #f7f6f2;
+  --ie-white: #ffffff;
+  --ie-text: #1f2d28;
+  --ie-muted: #5f6d67;
+  --ie-border: #dde3dc;
+  --ie-error: #b3261e;
+  --ie-error-bg: #fdecea;
+  --ie-success-bg: #e5eddd;
+  --ie-success-text: #1d493f;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--ie-bg);
+  color: var(--ie-text);
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--ie-accent-dark);
+}
+
+button {
+  font-family: inherit;
+}
